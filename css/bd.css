@@ -1,0 +1,22 @@
+body {
+    background-image: url("../img/backBd.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+    width: 100%;
+}
+
+.atv {
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 5px;
+}

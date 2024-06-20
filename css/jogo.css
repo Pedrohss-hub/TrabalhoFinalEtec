@@ -1,0 +1,19 @@
+body {
+    background-image: url("../img/backJogo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 100px;
+    width: 100%;
+}
+
+.jogo {
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 5px;
+}

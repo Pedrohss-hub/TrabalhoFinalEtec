@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background: #777;
+}
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 0 150px 0 150px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(30, 30, 30);
+}
+
+.logoHeader {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+}
+
+.linksHeader {
+    display: flex;
+    gap: 20px;
+}
+
+/*  */
+.inicialPaul {
+    padding-top: 70px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("../img/textureInicial.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.leftSide-inicialPaul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightSide-inicialPaul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.cont-rightSide-inicial {
+    max-width: 300px;
+    padding-left: 20px;
+    border-left: 3px solid white;
+}
+
+/*  */
+.apresentationPaul {
+    gap: 60px;
+    padding: 100px 0 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/textureApre.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-aprePaul {
+    margin-bottom: 50px;
+    color: #A62697;
+}
+
+.text-aprePaul {
+    text-align: justify;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.img-aprePaul {
+    object-fit: cover;
+    max-width: 322px;
+    min-width: 100px;
+    max-height: 322px;
+    min-height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.divider {
+    margin: auto;
+    width: 70%;
+    height: 2px;
+    background-color: white;
+}
+
+/*  */
+
+.trajetoriaPaul {
+    gap: 60px;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../img/textureTra.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-trajPaul {
+    text-align: center;
+    color: #A62697;
+}
+
+.gradLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.firstLine {
+    display: flex;
+    gap: 50px;
+}
+
+.secondLine {
+    display: flex;
+    gap: 50px;
+}
+
+.contOfLinks {
+    padding: 18px 0 18px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 140px;
+    border: 2px solid #A62697;
+    border-radius: 3px;
+}
+
+.contOfLinks > H6 {
+    color: #A62697;
+    width: 200px;
+    text-align: center;
+}
+
+.contOfLinks > button {
+    padding: 6px;
+    color: #A62697;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.paulHp {
+    margin: auto;
+    padding: 12px 25px 12px 25px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 2px;
+}
+
+.bg1Paul {
+    background-image: url("../img/card1Paul.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg2Paul {
+    background-image: url("../img/card2Paul.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg3Paul {
+    background-image: url("../img/card3Paul.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg4Paul {
+    background-image: url("../img/card4Paul.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg5Paul {
+    background-image: url("../img/card5Paul.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+
+.logoFooter > img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.bg1Hp {
+    background-image: url("../img/card1Hp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg2Hp {
+    background-image: url("../img/card2Hp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg3Hp {
+    background-image: url("../img/card3Hp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg4Hp {
+    background-image: url("../img/card4Hp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg5Paul {
+    background-image: url("../img/card5Paul.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
