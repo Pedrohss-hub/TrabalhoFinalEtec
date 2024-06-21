@@ -15,8 +15,22 @@ body {
 
 .atv {
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: 80vh;
     background-color: white;
     border-radius: 5px;
+}
+
+.mer {
+    background-image: url("../img/mer.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.der {
+    background-image: url("../img/der.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
